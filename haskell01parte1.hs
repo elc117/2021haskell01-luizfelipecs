@@ -25,7 +25,7 @@ isVerb verb = if last verb == 'r' then True else False
 isVowel :: Char -> Bool
 isVowel v = if (v == 'a' || v == 'e' || v == 'i' || v == 'o' || v == 'u') ||
                (v == 'A' || v == 'E' || v == 'I' || v == 'O' || v == 'U')
-              then True else False
+               then True else False
 
 hasEqHeads :: [Int] -> [Int] -> Bool
 hasEqHeads list1 list2 = if head list1 == head list2 then True else False
