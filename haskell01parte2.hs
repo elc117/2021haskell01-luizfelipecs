@@ -39,7 +39,7 @@ calcAreas raios = map circleArea raios
 
 --
 --funcao :: Char -> String -> Bool
---funcao z q = map q
+--funcao z q = map 
 
 --head tail == c ate achar
 
