@@ -1,6 +1,8 @@
 -- Prática 01 de Haskell - Parte 1
 -- Nome: Luiz Felipe Cavalheiro
 
+module Parte1 where
+
 sumSquares :: Int -> Int -> Int
 sumSquares x y = x^2 + y^2
 
