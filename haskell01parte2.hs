@@ -31,19 +31,19 @@ onlyBetween60and80 :: [Int] -> [Int]
 onlyBetween60and80 numberlist = filter between60and80 numberlist
 
 --
+isSpace :: Char -> Bool
+isSpace s = if s == ' ' then True else False
+
 countSpaces :: String -> Int
+countSpaces sp = length (filter isSpace sp)
 
 --
 calcAreas :: [Float] -> [Float]
 calcAreas raios = map circleArea raios
 
 --
---funcao :: Char -> String -> Bool
---funcao z q = map 
-
---head tail == c ate achar
-
 charFound :: Char -> String -> Bool
---charFound c p = if c == head p then True 
---                else False
+charFound ch st = if ch == head st then True 
+                  else if tail st /= [] then charFound ch (tail st)
+                  else False
 
