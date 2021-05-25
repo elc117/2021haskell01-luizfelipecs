@@ -3,6 +3,7 @@
 
 module Parte1 where
 
+
 sumSquares :: Int -> Int -> Int
 sumSquares x y = x^2 + y^2
 
