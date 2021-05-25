@@ -16,9 +16,18 @@ svgCircle x y r style =
 -- A opacidade pode não ser suportada em alguns visualizadores de SVG.
 svgAll :: String
 svgAll = 
-  svgBegin 500 500 ++ 
-  (svgCircle 60 60 50 "rgb(10, 145, 32, 0.4)") ++ 
-  (svgCircle 90 90 50 "rgb(105, 14, 30, 0.4)") ++ 
+  svgBegin 200 250 ++ 
+  (svgCircle 95 98 75 "rgb(105, 14, 30, 0.7)") ++ --cabeca
+  (svgCircle 95 240 95 "rgb(105, 14, 30, 0.7)") ++ --corpo
+  (svgCircle 95 245 65 "rgb(255, 255, 255, 0.6)") ++ --barriga
+  (svgCircle 23 33 23 "rgb(218, 165, 32, 0.8)") ++ -- orelha esq
+  (svgCircle 168 33 23 "rgb(218, 165, 32, 0.8)") ++ -- orelha dir
+  (svgCircle 70 70 23 "rgb(255, 255, 33, 0.7)") ++ -- olho esq
+  (svgCircle 118 70 23 "rgb(255, 255, 33, 0.7)") ++ -- olho dir
+  (svgCircle 80 80 8 "rgb(255, 255, 255, 0.8)") ++ -- pupila esq
+  (svgCircle 127 80 8 "rgb(255, 255, 255, 0.8)") ++ -- pupila dir
+  (svgCircle 94 108 8 "rgb(218, 165, 32, 0.8)") ++ -- nariz
+  (svgCircle 94 140 18 "rgb(0, 0, 0, 0.9)") ++ -- boca
   svgEnd
 
 main :: IO ()

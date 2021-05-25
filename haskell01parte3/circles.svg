@@ -1,0 +1,13 @@
+<svg width='200.00' height='250.00' xmlns='http://www.w3.org/2000/svg'>
+<circle cx='95' cy='98' r='75' fill='rgb(105, 14, 30, 0.7)' />
+<circle cx='95' cy='240' r='95' fill='rgb(105, 14, 30, 0.7)' />
+<circle cx='95' cy='245' r='65' fill='rgb(255, 255, 255, 0.6)' />
+<circle cx='23' cy='33' r='23' fill='rgb(218, 165, 32, 0.8)' />
+<circle cx='168' cy='33' r='23' fill='rgb(218, 165, 32, 0.8)' />
+<circle cx='70' cy='70' r='23' fill='rgb(255, 255, 33, 0.7)' />
+<circle cx='118' cy='70' r='23' fill='rgb(255, 255, 33, 0.7)' />
+<circle cx='80' cy='80' r='8' fill='rgb(255, 255, 255, 0.8)' />
+<circle cx='127' cy='80' r='8' fill='rgb(255, 255, 255, 0.8)' />
+<circle cx='94' cy='108' r='8' fill='rgb(218, 165, 32, 0.8)' />
+<circle cx='94' cy='140' r='18' fill='rgb(0, 0, 0, 0.9)' />
+</svg>
